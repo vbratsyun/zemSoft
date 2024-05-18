@@ -6,6 +6,7 @@
 
   @media (min-width: $tablet-width) {
     font-size: 30px;
+    width: 100%;
   }
 
   @media (min-width: $desktop-width) {
@@ -17,11 +18,13 @@
 }
 
 .about-us__description {
+  width: 95%;
   margin: 0 auto;
   font-size: 14.5px;
   line-height: 1.45;
 
   @media (min-width: $tablet-width) {
+    width: 100%;
     font-size: 18px;
   }
 
