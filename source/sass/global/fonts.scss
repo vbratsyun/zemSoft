@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Tilda Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../fonts/tildaSansLight.woff2") format("woff2"),
+    url("../../fonts/tildaSansLight.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tilda Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/tildaSansRegular.woff2") format("woff2"),
+    url("../../fonts/tildaSansRegular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tilda Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../fonts/tildaSansMedium.woff2") format("woff2"),
+    url("../../fonts/tildaSansMedium.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tilda Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/tildaSansBold.woff2") format("woff2"),
+    url("../../fonts/tildaSansBold.woff") format("woff");
+  font-display: swap;
+}

@@ -1,0 +1,28 @@
+.wrapper {
+  margin: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 56px;
+
+    &--services {
+      margin: 0 57px;
+    }
+
+    &--contacts {
+      margin: 0 0 0 57px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 90px;
+
+    &--partners,
+    &--drafts {
+      margin: 0 32px;
+    }
+
+    &--contacts {
+      margin: 0 0 0 90px;
+    }
+  }
+}

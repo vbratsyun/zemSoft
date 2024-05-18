@@ -1,0 +1,18 @@
+.main {
+  flex-grow: 1;
+}
+
+.main__about-us,
+.main__services,
+.main__partners,
+.main__drafts {
+  margin-bottom: 90px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 110px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 135px;
+  }
+}

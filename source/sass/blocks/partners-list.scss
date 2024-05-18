@@ -1,0 +1,84 @@
+.partners-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 auto;
+
+  @media (min-width: $desktop-width) {
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 20px;
+  }
+}
+
+.partners-list__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 auto;
+
+  &--stoppav {
+    width: 73%;
+    margin: 0 auto;
+  }
+
+  &--rusatom {
+    width: 76%;
+  }
+
+  @media (min-width: $tablet-width) {
+    font-size: 28px;
+    margin: 0 auto 25px;
+
+    &--stoppav {
+      width: 100%;
+    }
+
+    &--rusatom {
+      width: 80%;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 16px;
+
+    &--stoppav {
+      width: 94%;
+    }
+  }
+}
+
+.partners-list__description {
+  font-size: 12px;
+  line-height: 1.45;
+  font-weight: 300;
+  width: 87%;
+  margin: 0 auto;
+
+  &--vgasu {
+    width: 73%;
+  }
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+  }
+}
+
+.partners-list__link {
+  font-size: 24px;
+}
+
+.partners-list__logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+
+  &--govvrn {
+    object-fit: cover;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 150px;
+    height: 150px;
+  }
+}

@@ -1,0 +1,9 @@
+.title {
+  margin: 0 0 20px;
+  font-size: 30px;
+  color: $text-black-color;
+
+  @media (min-width: $tablet-width) {
+    font-size: 38px;
+  }
+}

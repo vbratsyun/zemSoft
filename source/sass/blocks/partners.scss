@@ -1,0 +1,29 @@
+.partners {
+  text-align: center;
+}
+
+.partners__title {
+  text-align: center;
+  margin: 0 28px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 24px;
+  }
+}
+
+.partners__description {
+  font-size: 17.5px;
+  line-height: 1.4;
+  font-weight: 300;
+
+  @media (min-width: $tablet-width) {
+    font-size: 22px;
+    width: 84%;
+    margin: 0 auto 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 622px;
+    width: 100%;
+  }
+}
