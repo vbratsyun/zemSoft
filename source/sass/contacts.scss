@@ -4,10 +4,14 @@
 
   @media (min-width: $tablet-width) {
     display: grid;
-    grid-template-columns: 512px 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 20px;
     padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 512px 1fr;
   }
 }
 
