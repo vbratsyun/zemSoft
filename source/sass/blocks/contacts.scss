@@ -1,0 +1,48 @@
+.contacts {
+  color: $text-white-color;
+  background-color: rgba($background-black, 0.75);
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 512px 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+  }
+}
+
+.contacts__title {
+  padding: 30px 0 0;
+  color: $text-white-color;
+  font-size: 24px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
+}
+
+.contacts__contact-address {
+  font-style: normal;
+}
+
+.contacts__phone,
+.contacts__email {
+  display: block;
+  font-size: 20px;
+  line-height: 1.4;
+  color: $text-white-color;
+}
+
+.contacts__email {
+  margin-bottom: 30px;
+}
+
+.contacts__address-text {
+  margin: 0 0 45px;
+}
+
+.contacts__map {
+  display: block;
+  width: 100%;
+  border: none;
+}
