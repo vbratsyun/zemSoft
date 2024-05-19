@@ -46,20 +46,20 @@ export const html = () => {
 // Images
 
 const optimizeImages = () => {
-  return gulp.src('source/image/*.{png,jpg}')
+  return gulp.src('source/image/**/*.{png,jpg}')
     .pipe(squoosh())
     .pipe(gulp.dest('build/image'))
 }
 
 const copyImages = () => {
-  return gulp.src('source/image/*.{png,jpg}')
+  return gulp.src('source/image/**/*.{png,jpg}')
     .pipe(gulp.dest('build/image'))
 }
 
 //SVG
 
 const svg = () =>
-  gulp.src(['source/image/**.svg'])
+  gulp.src(['source/image/*.svg'])
     .pipe(svgo())
     .pipe(gulp.dest('build/image'));
 
@@ -68,6 +68,7 @@ const svg = () =>
 const copy = (done) => {
   gulp.src([
     'source/fonts/*.{woff2,woff}',
+    'source/*.ico',
     'source/*.webmanifest'
   ], {
     base: 'source'
