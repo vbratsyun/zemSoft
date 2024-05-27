@@ -9,12 +9,20 @@
     программного обеспечения, IT, информационные технологии, решение для бизнеса, электронное взаимодействие между органами
     власти"
     />
-    <!-- добавить описание для сниппета -->
+    <meta
+      name="description"
+      content="Компания ООО &#168;ЗемСофт&#168; предоставляет услуги по разработке программного обеспечения
+      в различных сферах, сотрудничаем как с государственными органами, так и с бизнесом. Мы — профессиональная команда разработчиков программного
+      обеспечения, имеющая богатый опыт и глубокую экспертизу во многих
+      предметных областях. Наша компания уже 4 года успешно развивается на рынке. Мы работаем
+      со многими крупными компаниями из сферы IT и госучреждениями."
+    />
     <title>ООО "ЗемСофт"</title>
     <link href="favicon.ico" rel="icon" />
     <link href="image/favicons/apple-touch-icon.png" rel="apple-touch-icon" />
     <link href="manifest.webmanifest" rel="manifest" />
     <link href="css/style.min.css" rel="stylesheet" />
+    <link rel="preload" href="js/script.js" as="script" />
     <link rel="preload" href="css/style.min.css" as="style" />
     <link
       rel="preload"
@@ -32,6 +40,24 @@
           ООО "Земсофт" создано сообществом профессионалов для разработки
           программного обеспечения
         </p>
+        <button class="header__button button">
+          <svg
+            class="header__arrow"
+            role="presentation"
+            x="0px"
+            y="0px"
+            width="38.417px"
+            height="18.592px"
+            viewBox="0 0 38.417 18.592"
+          >
+            <g>
+              <path
+                d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"
+              ></path>
+            </g>
+          </svg>
+          <span class="visually-hidden">Посмотреть информацию ниже</span>
+        </button>
       </div>
     </header>
     <main class="body__main main">
@@ -474,5 +500,23 @@
         ></iframe>
       </section>
     </footer>
+    <button class="body__up-button button" type="button">
+      <svg
+        class="body__up-button-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        id="Layer_1"
+        data-name="Layer 1"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24"
+      >
+        <path
+          d="M18.079,6L12.996,.445c-.532-.593-1.461-.593-1.993,0L5.921,6h4.579V24h3V6h4.579Z"
+        />
+      </svg>
+      <span class="visually-hidden">Наверх</span>
+    </button>
+    <script src="js/scroll.js"></script>
+    <script src="js/up-button.js"></script>
   </body>
 </html>
