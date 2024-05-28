@@ -3,7 +3,7 @@ let timer;
 
 const onArrowClick = () => {
   window.scrollTo({
-    top: 844,
+    top: 900,
     left: 0,
     behavior: "smooth",
   });
