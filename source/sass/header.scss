@@ -4,13 +4,19 @@
   min-height: 844px;
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("../image/background-image.jpg");
-
   background-size: cover;
   background-position: center;
   background-color: rgba($background-black, 0.75);
 
   @media (min-width: $tablet-width) {
     min-height: 860px;
+  }
+
+  @media (min-resolution: 2dppx) {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url("../image/background-image@2x.jpg");
+    background-size: cover;
+    background-position: center;
   }
 }
 

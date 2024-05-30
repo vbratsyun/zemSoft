@@ -1,4 +1,5 @@
 const arrow = document.querySelector(".header__button");
+
 let timer;
 
 const onArrowClick = () => {
