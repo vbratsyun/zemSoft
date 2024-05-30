@@ -8,7 +8,6 @@ import rename from "gulp-rename";
 import htmlmin from "gulp-htmlmin";
 import squoosh from "gulp-libsquoosh";
 import svgo from "gulp-svgmin";
-import svgstore from "gulp-svgstore";
 import del from "del";
 import browser from "browser-sync";
 
