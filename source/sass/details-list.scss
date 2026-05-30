@@ -1,0 +1,33 @@
+.details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0 0 40px;
+}
+
+.details-list__item {
+  &:nth-child(4) {
+    margin-top: 20px;
+  }
+
+  &:nth-child(7) {
+    margin-top: 20px;
+  }
+}
+
+.details-list__title,
+.details-list__value {
+  font-size: 14.5px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 16.5px;
+  }
+}
+
+.details-list__value {
+  color: $background-grey;
+
+  &--link {
+    color: $background-grey;
+  }
+}
